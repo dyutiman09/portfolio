@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap'); </style>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/42096cda70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/namelogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Dyutiman Saha</span></h1>
+
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="comtainer">
+        <div class="row">
+            <div class="column1">
+                <img src="images/myimage.jpg" alt="myimage">
+            </div>
+            <div class="column2">
+                <h1 class="subtitle">About me</h1>
+                <p>
+                    <b>I am <span>Dyutiman Saha</span>, currently I am studying Computer Science and Engineering from Kalinga Institute of Industrial technology, I am a Web Developer, I love to code and solve problems and I am looking for Internship to gain more knowledge of this corporate world.</b>
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Frontend Developer</li>
+                        <li><span>App Development</span><br>Building ios/android app</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Flutter Developer</span><br>GeeksforGeeks KIIT society</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2005-2018</span><br>Mary Immaculate School</li>
+                        <li><span>2018-2020</span><br>PHSPS</li>
+                        <li><span>2020-current</span><br>KIIT University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Frontend Web Developement using html css and javascript</p>
+                <a href="#"><br>Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p>Flutter Developement using dart</p>
+                <a href="#"><br>Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My portfolio</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>BMI Calculator App</h3>
+                    <p>The app calculates your BMI and give your accurate design</p>
+                    <a href="https://github.com/dyutiman09/bmicalculator.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Spotify Webpage</h3>
+                    <p>Clone of spotify webpage using html and css</p>
+                    <a href="https://github.com/dyutiman09/spotify-webpage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Bill splitter</h3>
+                    <p>Bill splitter using python</p>
+                    <a href="https://github.com/dyutiman09/billsplitter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/dyutiman09" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dyutiman.saha10@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6295787673</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/dyutiman-saha-9917321b7/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dyutiman09"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/dyutiman09/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/dyutimansaha09"><i class="fa-brands fa-facebook"></i></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Messages" name="Messages" rows="6" placeholder="Your Messages" required></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
